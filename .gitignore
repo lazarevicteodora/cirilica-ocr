@@ -1,0 +1,18 @@
+# Sinteticki i kombinovani dataset - generisu se skriptama (generate_synthetic.py,
+# combine_datasets.py), previse fajlova i previse veliko za git
+data/synthetic/
+data/combined/
+data/real_raw/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Claude Code lokalna podesavanja (nisu deo projekta)
+.claude/
+
+# Sadrzi apsolutne putanje sa mog racunara, beskorisno na drugom racunaru
+reports/dataset_split.json
